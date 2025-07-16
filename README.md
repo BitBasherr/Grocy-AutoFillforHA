@@ -17,7 +17,7 @@ Packaged as a native Home Assistant add-on.
    **Settings → Add-ons → Add-on Store → … → Repositories**
 
 2. Add this URL:
-    https://github.com/YOURUSERNAME/Grocy-AutoFillforHA
+    https://github.com/BitBasherr/Grocy-AutoFillforHA
 
 
 3. Look for **Grocy AutoFill for HA** in the Add-on Store and install.
@@ -40,3 +40,4 @@ Example:
   "api_key": "your_api_key",
   "poll_interval": 30
 }
+```
