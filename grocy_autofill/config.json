@@ -1,0 +1,29 @@
+{
+  "name": "Grocy AutoFill for HA",
+  "version": "1.0.1",
+  "slug": "grocy_autofill",
+  "description": "Automatically fills Grocy products using Open Food Facts.",
+  "url": "https://github.com/BitBasherr/Grocy-AutoFillforHA",
+  "codenotary": "you@example.com",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armv7",
+    "i386"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "init": false,
+  "panel_icon": "mdi:barcode-scan",
+  "options": {
+    "grocy_url": "",
+    "api_key": "",
+    "poll_interval": 30
+  },
+  "schema": {
+    "grocy_url": "str",
+    "api_key": "str",
+    "poll_interval": "int"
+  },
+  "image": "ghcr.io/${HASSIO_NAMESPACE}/${HASSIO_SLUG}-{arch}"
+}
