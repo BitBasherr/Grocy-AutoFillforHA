@@ -1,0 +1,11 @@
+{
+  "title": "Grocy AutoFill",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Grocy AutoFill",
+        "description": "Enter your Grocy server details and polling interval."
+      }
+    }
+  }
+}

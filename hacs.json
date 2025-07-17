@@ -1,0 +1,8 @@
+{
+  "name": "Grocy AutoFill",
+  "content_in_root": false,
+  "domains": ["grocy_autofill"],
+  "country": "US",
+  "homeassistant": "2023.6.0",
+  "render_readme": true
+}

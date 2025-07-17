@@ -1,0 +1,15 @@
+{
+  "domain": "grocy_autofill",
+  "name": "Grocy AutoFill",
+  "version": "1.0.0",
+  "documentation": "https://github.com/BitBasherr/Grocy-AutoFillforHA",
+  "issue_tracker": "https://github.com/BitBasherr/Grocy-AutoFillforHA/issues",
+  "requirements": [
+    "requests>=2.31.0"
+  ],
+  "codeowners": [
+    "@BitBasherr"
+  ],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}
