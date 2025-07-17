@@ -1,10 +1,9 @@
 name: Grocy AutoFill for HA
 version: "1.0.2"
 slug: grocy_autofill
-description: Automatically fills Grocy products using Open Food Facts
+description: Automatically fills Grocy products using Open Food Facts.
 url: https://github.com/BitBasherr/Grocy-AutoFillforHA
 startup: application
-boot: auto
 arch:
   - aarch64
   - armv7
@@ -14,10 +13,12 @@ hassio_api: false
 hassio_role: default
 image: null
 panel_icon: mdi:barcode-scan
+
 options:
   grocy_url: ""
   api_key: ""
   poll_interval: 30
+
 schema:
   grocy_url: str
   api_key: str
